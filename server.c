@@ -61,7 +61,7 @@ int main(int argc, char* argv[]) {
     } else {
         buffer[bytes_received] = '\0';
         printf("Received: ");
-        for (int i = 0; i < 53 && i < bytes_received; i++) {
+        for (int i = 0; i < 106 && i < bytes_received; i++) {
             printf("%c", buffer[i]);
         }
         printf("\n");
