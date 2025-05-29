@@ -34,7 +34,7 @@ int main(int argc, char* argv[]) {
     }    
 
     // sending information
-    char message[256] = "Kozlov Ilya Ruslanovich  KKSO-26-24 1 kurs";
+    char message[256] = "Козлов Илья Русланович ККСО-26-24 1 курс";
     send(network_socket, message, strlen(message), 0);
 
 	// then close the socket
